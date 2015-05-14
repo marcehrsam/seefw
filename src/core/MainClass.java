@@ -9,13 +9,16 @@ package core;
  *
  * @author Marc
  */
-public class Seefw {
+public class MainClass {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        SeeFramework application = SeeFramework.getFW();
+        application.start();
+        
     }
     
 }
