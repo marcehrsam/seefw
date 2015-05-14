@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/rechnungen.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE rdb SYSTEM "rechnungen.dtd">
+
+    <rdb>
+    ...
+    </rdb>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT rdb (rechnung)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT rechnung (id|datum|position)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT id (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT datum EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT position (posnr,prodnr,preis,anz)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT posnr (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT prodnr (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT preis (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT anz (#PCDATA)>

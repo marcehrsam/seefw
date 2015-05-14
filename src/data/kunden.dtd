@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT kdb (kunde)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT kunde (kdnr,name,vorname,strasse,hausnummer,plz,ort,note)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT kdnr (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT name (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT vorname (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT strasse (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT hausnummer (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT plz (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ort (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT note (#PCDATA)>
